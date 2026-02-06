@@ -1,0 +1,14 @@
+<p>
+  <details>
+    <summary>
+      <div>
+        <b>{{ .Get "title" | default "Click to expand" | markdownify }}</b>
+        <br>
+        {{ .Get "subtitle" | markdownify }}
+      </div>
+    </summary>
+    <div class="content">
+      {{ .Inner | markdownify }}
+    </div>
+  </details>
+</p>

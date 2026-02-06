@@ -1,0 +1,8 @@
+<div class="twocol-container">
+  <div class="twocol-text">
+    {{ .Inner | markdownify }}
+  </div>
+  <div class="twocol-image">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="lazy" />
+  </div>
+</div>

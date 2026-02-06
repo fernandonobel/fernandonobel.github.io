@@ -1,0 +1,12 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'fernandonobel'
+theme: 'hugo-bearblog'
+copyright: '© 2026 Fernando N. Santos-Navarro'
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+caches:
+  images:
+    dir: :cacheDir/images
