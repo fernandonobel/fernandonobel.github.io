@@ -62,7 +62,7 @@ My approach focused on expanding and restructuring the documentation using the *
 
 The ultimate goal of the documentation was to encourage users to adopt YAML-based workflows by leveraging the YAML package.
 
-To support this effort, I created a separate repository, [yaml-for-matlab](https://github.com/fernandonobel/yaml-for-matlab), dedicated exclusively on documentation. It explicity references the original [yaml repository](https://github.com/MartinKoch123/yaml) but does not include its source code. This separation made it possible to produce more comprehensive, user-focused documentation without being constrained by the scope or structure of the original project.
+To support this effort, I created a separate repository, YAML for MATLAB, dedicated exclusively on documentation. It explicity references the original YAML repository but does not include its source code. This separation made it possible to produce more comprehensive, user-focused documentation without being constrained by the scope or structure of the original project.
 
 The documentation is built with **Sphinx** and published on **Read the Docs**. I also set up a **reproducible documentation environment** to facilitate future updates and encourage community contributions.
 
