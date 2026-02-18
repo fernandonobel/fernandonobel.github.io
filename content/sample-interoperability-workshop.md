@@ -11,39 +11,39 @@ title: "Sample Raw Markdown from the Python-MATLAB Interoperability Workshop"
 
 We want a toolbox to:
 
-* **accesibilize** the use of techniques
-* develop and try new ideas **faster**
-* **colaborate** better together.
+  - **accesibilize** the use of techniques
+  - develop and try new ideas **faster**
+  - **colaborate** better together.
 
 ## What is a useful tool?
 
 A good tool:
 
-* solves one specific problem
-* uses a software-independent standard for its inputs and outputs
-* has enough documentation and examples.
+  - solves one specific problem
+  - uses a software-independent standard for its inputs and outputs
+  - has enough documentation and examples.
 
 ## Example of a really good tool: STRIKE-GOLDD
 
 \begin{columns}
-\begin{column}{0.5\textwidth}
-The STRIKE-GOLDD toolbox:
-
-\begin{itemize}
-  \item is a free and open-source
-  \item does identificability and observability analysis
-  \item avoids bad surprises
-\end{itemize}
-
-\end{column}
-
-\begin{column}{0.5\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{img/strike_goldd_paper}
-\end{figure}
-
-\end{column}
+  \begin{column}{0.5\textwidth}
+  The STRIKE-GOLDD toolbox:
+  
+  \begin{itemize}
+    \item is a free and open-source
+    \item does identificability and observability analysis
+    \item avoids bad surprises
+  \end{itemize}
+  
+  \end{column}
+  
+  \begin{column}{0.5\textwidth}
+  \begin{figure}
+  \centering
+  \includegraphics[width=\columnwidth]{img/strike_goldd_paper}
+  \end{figure}
+  
+  \end{column}
 \end{columns}
 
 ## {.standout}
@@ -57,8 +57,8 @@ Not using STRIKE-GOLDD is a huge opportunity cost!
 
 Not using software-independent standards leads to...
 
-* ineficient workflows that promote reinventing the wheel
-* the Python vs. MATLAB dilemma
+  - ineficient workflows that promote reinventing the wheel
+  - the Python vs. MATLAB dilemma
  
 ## Example
 
@@ -67,14 +67,14 @@ Not using software-independent standards leads to...
 :::: column
 We developed a data-driven method which:
 
-* infers the structure of a model from experimental data
-* but requires the measurement derivatives
+  - infers the structure of a model from experimental data
+  - but requires the measurement derivatives
 
 \vspace{0.5cm}
 
 There are many methods to approximate derivatives:
 
-* PyNumDiff is a Python package that implements many of them
+  - PyNumDiff is a Python package that implements many of them
  
 ::::
 
@@ -119,31 +119,24 @@ Option 2: Do everything in MATLAB $\rightarrow$ not use PyNumDiff
 
 \begin{columns}
 
-\begin{column}{0.5\textwidth}
-
-\textbf{Option 3: Use MATLAB and Python}
-
-\vspace{0.5cm}
-
-Use a file that can be read and written by:
-
-\begin{itemize}
-  \item MATLAB
-  \item Python
-\end{itemize}
-
-\vspace{0.5cm}
-
-We used CSV (comma-separated value)
-
-\end{column}
-
-\begin{column}{0.5\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{img/csv_example}
-\end{figure}
-\end{column}
+  \begin{column}{0.5\textwidth}
+    \textbf{Option 3: Use MATLAB and Python}
+    \vspace{0.5cm}
+    Use a file that can be read and written by:
+    \begin{itemize}
+      \item MATLAB
+      \item Python
+    \end{itemize}
+    \vspace{0.5cm}
+    We used CSV (comma-separated value)
+  \end{column}
+  
+  \begin{column}{0.5\textwidth}
+    \begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{img/csv_example}
+    \end{figure}
+  \end{column}
 
 \end{columns}
 
@@ -155,20 +148,18 @@ We used CSV (comma-separated value)
 
 ## We avoid the opportunity cost
 
-
 With this workflow, we:
 
-* use MATLAB for (almost) everything
-
-* only need to know the bare minimum of Python:
-  * how to load and save a CSV
-  * how to use PyNumDiff
+  - use MATLAB for (almost) everything
+  - only need to know the bare minimum of Python:
+    - how to load and save a CSV
+    - how to use PyNumDiff
 
 The advantages:
 
-* we avoid the opportunity cost
-* we solve the Python vs. MATLAB dilemma
-* the workflow is flexible
+  - we avoid the opportunity cost
+  - we solve the Python vs. MATLAB dilemma
+  - the workflow is flexible
 
 ## We can easily use real experiment data
 

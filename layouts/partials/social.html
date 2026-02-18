@@ -1,0 +1,11 @@
+{{ with .Site.Params.social }}
+  {{ range $index, $item := . }}
+    <a href="{{ $item.link }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-{{ $item.icon }}"></i>
+      {{ $item.label }}
+    </a>
+    {{ if lt $index (sub (len $.Site.Params.social) 1) }}
+      ·
+    {{ end }}
+  {{ end }}
+{{ end }}

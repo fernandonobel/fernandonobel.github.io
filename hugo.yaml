@@ -1,12 +1,44 @@
 baseURL: 'https://example.org/'
 languageCode: 'en-us'
+
 title: 'fernandonobel'
 theme: 'hugo-bearblog'
 copyright: '© 2026 Fernando N. Santos-Navarro'
+
 markup:
   goldmark:
     renderer:
       unsafe: true
+
 caches:
   images:
-    dir: :cacheDir/images
+    dir: ':cacheDir/images'
+
+params:
+  profile:
+    name: 'Fernando Santos, PhD'
+    position: 'Technical Writer · Software Documentation'
+    resume: 'https://drive.google.com/file/d/1IiOkX3VveuBm_my9-l9xAO5iGAHaMdlu/view?usp=sharing'
+  social:
+    - icon: 'github'
+      label: 'Github'
+      link: 'https://github.com/fernandonobel'
+    - icon: 'linkedin'
+      label: 'LinkedIn'
+      link: 'https://www.linkedin.com/in/fernandonobel/'
+
+defaultContentLanguage: en
+
+languages:
+  es:
+    languageName: "🇪🇸 Español"
+    LanguageCode: es
+    contentDir: content
+    params:
+      profile:
+        position: 'Escritor Técnico · Documentación de Software'
+        resume: 'https://drive.google.com/file/d/1ivfH40XmN_Dy69GXvJYl7Vtgs9vF8wwD/view?usp=sharing'
+  en:
+    languageName: "🇺🇸  English"
+    LanguageCode: en-us
+    contentDir: content

@@ -1,4 +1,4 @@
-# Portfolio of Fernando N. Santos-Navarro
+# Portfolio of Fernando Santos
 
 This repository contains the source code for my professional portfolio website. The site serves as the central place to present my work, projects, and professional background, and is designed to be lightweight, fast, and easy to maintain. The repository is public to serve as a reference for others building similar portfolio sites.
 

@@ -1,14 +1,14 @@
 <style>
   :root {
-    --width: 720px;
-    --font-main: sans-serif;
+    --width: 840px;
+    --font-main: roboto;
     --font-secondary: sans-serif;
-    --font-scale: 1em;
-    --background-color: #fff;
+    --font-scale: 18px;
+    --background-color: #fafafa;
     --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
+    --text-color: #383a42;
+    --link-color: #3d74f6;
+    --visited-color: #3d74f6;
     --blockquote-color: #222;
   }
 
@@ -34,6 +34,15 @@
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+ 
+ 
+  h2 {
+    font-size: 1.8em;
   }
 
   a {
@@ -67,7 +76,7 @@
   }
 
   main {
-    line-height: 1.6;
+    line-height: 1.5;
   }
 
   table {
@@ -94,6 +103,7 @@
     font-family: monospace;
     padding: 2px;
     border-radius: 3px;
+    font-size: 0.8em;
   }
 
   blockquote {
@@ -131,6 +141,11 @@
     background: #EEE;
   }
 
+  .mermaid {
+    text-align: center;
+  }
+
+
   ul.blog-posts {
     list-style-type: none;
     padding: unset;
@@ -153,11 +168,11 @@
     border-radius: 10px;
     margin: 1em 0;
     overflow: hidden;
-    border-color: #CCC;
+    border-color: #dbdbdc;
   }
   
   details summary {
-    background: #EEE;
+    background: #eaeaeb;
     padding: 1em 1.5em;
     cursor: pointer;
     display: flex;
@@ -166,7 +181,7 @@
   }
   
   details summary:hover {
-    background: #DDD;
+    background: #dbdbdc;
   }
   
   details summary::after {
@@ -175,7 +190,7 @@
     font-size: 1.2rem;
     color: #666;
   }
-  
+
   details[open] summary::after {
     content: "−";
   }
@@ -191,6 +206,12 @@
     align-items: top;
     margin-top: 1em;
   }
+
+  .twocol-image {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
   
   .twocol-image img {
     width: 200px;
@@ -202,10 +223,27 @@
       grid-template-columns: 1fr;
       gap: 0rem;
     }
+
     .twocol-image img {
       float: none;
       width: 100%;
     }
+  }
+
+  ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  .language-dropdown {
+    text-align: right;
+    padding-bottom: 2em;
+  }
+
+  .language-dropdown select {
+    padding: 0.4rem 2rem 0.4rem 0.75rem;
+    border-radius: 0.3em;
+    border: 1px solid #dbdbdc;
+    font-size: 0.8em;
   }
 
 </style>

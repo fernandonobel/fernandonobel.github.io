@@ -1,0 +1,11 @@
+<div class="language-dropdown">
+  <select onchange="location = this.value;">
+    {{ range .AllTranslations }}
+      <option 
+        value="{{ .RelPermalink }}"
+        {{ if eq $.Language.Lang .Language.Lang }}selected{{ end }}>
+        {{ .Language.LanguageName }}
+      </option>
+    {{ end }}
+  </select>
+</div>

@@ -1,30 +1,14 @@
----
-title: "Portfolio"
----
+## Summary
 
-{{< twocolumn src="/profile-photo.png" >}}
-
-# Porftolio
-
-**Fernando N. Santos-Navarro, PhD**  
-Technical Writer  
-Software Documentation
-
-{{< /twocolumn >}}
-
----
-
-## Portfolio summary
-
-I'm a **Technical Writer specializing in Software Documentation**. I collaborate with researchers and engineers to design and document software, tools, and workflows.
+I'm a **Technical Writer specializing in Software Documentation**. I work with researchers and engineers to design, develop and document software, tools, and workflows.
 
 This portfolio includes examples of my work in:
 
-  - **Open-source documentation**, including Sphinx-based, Diátaxis-driven documentation for the YAML package for MATLAB.
-  - **Research software development**, such as OneModel, a Python-based SBML modeling tool used in peer-reviewed academic research.
-  - **Educational initiatives**, including hands-on workshops that bridge Python and MATLAB in real research contexts, as well as my long-running blog on creativity and knowledge work.
+  - **Open-source documentation.** I have designed and written tutorials, how-to guides, technical references, and explanations for a YAML package for MATLAB, using a Docs-as-Code workflow and the Diátaxis framework.
+  - **Research software development.** I developed and documented OneModel, a Python-based SBML modeling tool used in peer-reviewed academic research and published on PyPI.
+  - **Educational initiatives.** I have designed and delivered hands-on workshops on Python–MATLAB interoperability and software development best practices. I am also the author of a personal blog on creativity and knowledge work.
 
-I've also contributed to projects that cannot be publicly showcased, including the development and documentation of software tools for private bioindustry companies and research that has not yet been published, such as a proposed standard for representing state-space models.
+I've also contributed to projects that cannot be publicly showcased, including the development and documentation of software tools for private bioindustry companies and research that has not yet been published, such as a standard for representing state-space models.
 
 ---
 
@@ -40,13 +24,13 @@ I've also contributed to projects that cannot be publicly showcased, including t
 
 ### Problem
 
-Much of my experience in technical documentation comes from private company projects or unpublished research, which makes it difficult to include complete, current work samples in a public portfolio.
+Much of my experience in technical documentation comes from projects carried out for private companies or from research that has not yet been published, which limits my ability to include complete and up-to-date samples in a public portfolio.
 
-To address this, I chose to document an open-source third-party [YAML package](https://github.com/MartinKoch123/yaml) for MATLAB. This package enables reading and writing YAML files in MATLAB (a feature that is not supported natively).
+To overcome this limitation, I decided to document an open-source third-party YAML package for MATLAB. This package enables reading and writing YAML files in MATLAB, a feature that is not supported natively.
 
 This project served two purposes:
 
-  - to produce a modern, publicly accessible work sample
+  - to create a modern, publicly accessible work sample
   - to promote the adoption of YAML in MATLAB by providing clear, well-structured, and practical documentation for users.
 
 ### Solution
@@ -57,43 +41,35 @@ My approach focused on expanding and restructuring the documentation using the *
 
   - **A new tutorial.** A hands-on walkthrough about styling MATLAB plots using YAML.
   - **A new how-to guide.** A guide on maintaining YAML configurations without code duplication.
-  - **An updated API reference.** A revised and expanded documentation of the package's public API.
+  - **An updated API reference.** A revised and expanded reference of the package's public API.
   - **An new explanation.** An explanation to clarify the different roles of YAML files and MAT-files in MATLAB workflows.
 
 The ultimate goal of the documentation was to encourage users to adopt YAML-based workflows by leveraging the YAML package.
 
-To support this effort, I created a separate repository, YAML for MATLAB, dedicated exclusively on documentation. It explicity references the original YAML repository but does not include its source code. This separation made it possible to produce more comprehensive, user-focused documentation without being constrained by the scope or structure of the original project.
+To support this goal, I created a separate repository, YAML for MATLAB, dedicated exclusively on documentation. It explicity references the original YAML repository but does not include its source code. This separation made it possible to produce more comprehensive, user-focused documentation without being constrained by the scope or structure of the original project.
 
 The documentation is built with **Sphinx** and published on **Read the Docs**. I also set up a **reproducible documentation environment** to facilitate future updates and encourage community contributions.
 
 ### Results
 
   - Expanded and restructured the documentation using the **Diátaxis framework**.
-   
   - Established a reproducible, **Sphinx-based documentation** environment to enable collaboration and long-term maintenance.
-  
   - Deployed the documentation on **Read the Docs** with automated builds.
-  
   - Supported and encouraged broader adoption of **YAML-based workflows** within the MATLAB ecosystem.
 
 ### Links to samples
 
-- {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/index.html">}}Documentation{{< /external-link >}}<br>The documentation home page deployed on Read the Docs
-
-- {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/tutorials/style_plot_with_yaml.html">}}Tutorial{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/tutorials/style_plot_with_yaml.rst?plain=1">}}Raw file{{< /external-link >}}<br>"Use YAML to style the plot function"
-
-- {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/how_to/maintain_yaml_without_duplication.html">}}How-to guide{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/how_to/maintain_yaml_without_duplication.rst?plain=1">}}Raw file{{< /external-link >}}<br>"How to maintain YAML configurations without duplication"
-
-- {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/apidocs/index.html">}}API reference{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/apidocs/index.rst?plain=1">}}Raw file{{< /external-link >}}<br>The API reference index
-
-- {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/explanations/storage_and_configuration_problems.html">}}Explanation{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/explanations/storage_and_configuration_problems.rst?plain=1">}}Raw file{{< /external-link >}}<br>"MAT-file vs. YAML: Where storing data ends and configuration begins"
-
-- {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/tree/master">}}GitHub repository{{< /external-link >}}<br>The documentation source repository
+  - {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/index.html">}}Documentation{{< /external-link >}}<br>The documentation home page deployed on Read the Docs
+  - {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/tutorials/style_plot_with_yaml.html">}}Tutorial{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/tutorials/style_plot_with_yaml.rst?plain=1">}}Raw file{{< /external-link >}}<br>"Use YAML to style the plot function"
+  - {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/how_to/maintain_yaml_without_duplication.html">}}How-to guide{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/how_to/maintain_yaml_without_duplication.rst?plain=1">}}Raw file{{< /external-link >}}<br>"How to maintain YAML configurations without duplication"
+  - {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/apidocs/index.html">}}API reference{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/apidocs/index.rst?plain=1">}}Raw file{{< /external-link >}}<br>The API reference index
+  - {{< external-link url="https://yaml-for-matlab.readthedocs.io/en/latest/explanations/storage_and_configuration_problems.html">}}Explanation{{< /external-link >}} · {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/blob/master/docs/explanations/storage_and_configuration_problems.rst?plain=1">}}Raw file{{< /external-link >}}<br>"MAT-file vs. YAML: Where storing data ends and configuration begins"
+  - {{< external-link url="https://github.com/fernandonobel/yaml-for-matlab/tree/master">}}GitHub repository{{< /external-link >}}<br>The documentation source repository
 
 {{< /details >}}
 
 
-{{< details title="OneModel: An Open-Source SBML Modeling Tool" subtitle="Software Development · Software Documentation · Open-Source Contribution">}}
+{{< details title="OneModel: An open-source SBML modeling tool" subtitle="Software Development · Software Documentation · Open-Source Contribution">}}
 
 **Date:** 2022  
 **Tools:** Python · TatSu · SBML · Click · Sphinx · Pytest · Git · GitHub · Poetry  
@@ -121,15 +97,17 @@ flowchart LR
 
 ### Problem
 
-During my PhD, a central part of my research involved developing mathematical models and their corresponding software implementations. Initially, I followed the standard practice of control engineering community: building monolithic models in MATLAB without relying on external dependencies. While this approach was adequate for small models, it quickly became impractical as I scaled up to multi-scale models representing complex processes, such as industrial bioproduction. Development times increased significantly, maintenance become cumbersome, and the risk of human error rose.
+During my PhD, a central part of my research consisted of developing mathematical models and their corresponding software implementations. Initially, I followed the standard practice in the control engineering community: building monolithic models in MATLAB without relying on external libraries. This approach worked well for small models, but was not scalable once I began working with more complex systems, such as multi-scale models to represent industrial bioproduction processes.
 
-I evaluated several existing modeling tools --- including Simulink, Simscape, and OpenModelica --- but found them too rigid and prone to vendor lock-in. Recognizing these limitations, I proposed to my thesis advisor the development of a new tool, OneModel, specifically designed to support incremental, modular model construction.
+As the size and complexity of the models increased, development times grew significantly, maintenance became progressively more difficult, and the risk of introducing human errors rose considerably.
+
+I evaluated several existing modeling tools --- including Simulink, Simscape, and OpenModelica --- but found them too rigid and prone to vendor lock-in. Given these limitations, I proposed to my PhD advisor the development of a new tool, OneModel, specifically designed to support incremental, modular model construction.
 
 ### Solution
 
 OneModel is a **Python package** for building mathematical models of bioprocesses using the SBML standard. It provides a **domain-specific language (DSL)** that supports incremental and modular model construction, making models easier to extend, maintain, reuse, and combine over time. Once a model is defined using the DSL, OneModel generates an SBML document that can be imported into MATLAB via a companion subpackage I also developed, SBML2dae.
 
-The guiding principle behind OneModel was to minimize code written from scratch, reducing both development and documentation effort. To achieve this, the project leverages well-established community libraries and tools:
+The fundamental principle behind OneModel was to minimize code written from scratch, reducing both development and documentation effort. To achieve this, the project leverages well-established community libraries and tools:
 
   - **TatSu** to define and parse the DSL
   - **SBML** as the standard for representing bioprocess models
@@ -145,34 +123,24 @@ OneModel was developed collaboratively, with continuous iterations driven by fee
 ### Results
 
   - Enabled the incremental and modular creation of complex SBML models, significantly improving reproducibility, maintainability, and reliability.
-  
   - Presented OneModel at academic conferences and workshops, including IWBDA and iGEM, receiving highly positive feedback from international researchers.
-  
   - Facilitated the development of multiscale models that served as the basis for multiple publications in my laboratory and with external collaborators.
-  
   - Received recognition during my PhD defense for delivering a complete, well-documented, and published software tool with demonstrable impact on research productivity and quality.
 
 ### Links to samples
 
-- {{< external-link url="https://onemodel.readthedocs.io/en/latest/">}} Documentation{{< /external-link >}}<br>Documentation deployed on Read the Docs
-
-  - {{< external-link url="https://onemodel.readthedocs.io/en/latest/installation.html">}}Installation{{< /external-link >}} · {{< external-link url="https://github.com/FernandoNobel/onemodel/blob/master/docs/source/installation.rst">}}Raw file{{< /external-link >}}
-   
-  - {{< external-link url="https://onemodel.readthedocs.io/en/latest/quick_start.html">}}Quickstart tutorial{{< /external-link >}} · {{< external-link url="https://github.com/FernandoNobel/onemodel/blob/master/docs/source/quick_start.rst">}}Raw file{{< /external-link >}}
-   
-  - {{< external-link url="https://onemodel.readthedocs.io/en/latest/onemodel_syntax.html">}}OneModel syntax reference{{< /external-link >}} · {{< external-link url="https://github.com/FernandoNobel/onemodel/blob/master/docs/source/onemodel_syntax.rst">}}Raw file{{< /external-link >}}
-
-- {{< external-link url="https://github.com/fernandonobel/onemodel">}}GitHub repository{{< /external-link >}} <br> Source code, documentation and examples
- 
-- {{< external-link url="https://pypi.org/project/onemodel/">}}PyPI page{{< /external-link >}} <br> Python package ready for installation
-
-- {{< external-link url="https://doi.org/10.1016/j.ifacol.2022.07.432">}}Scientific article{{< /external-link >}} <br> Peer-reviewed article describing OneModel and its applications
- 
-- {{< external-link url="/onemodel_workshop.pdf">}}Workshop slides{{< /external-link >}} <br> Slides used at iGEM and IWBDA workshops to teach how to use OneModel
+  - {{< external-link url="https://onemodel.readthedocs.io/en/latest/">}} Documentation{{< /external-link >}}<br>Documentation deployed on Read the Docs
+    - {{< external-link url="https://onemodel.readthedocs.io/en/latest/installation.html">}}Installation{{< /external-link >}} · {{< external-link url="https://github.com/FernandoNobel/onemodel/blob/master/docs/source/installation.rst">}}Raw file{{< /external-link >}}
+    - {{< external-link url="https://onemodel.readthedocs.io/en/latest/quick_start.html">}}Quickstart tutorial{{< /external-link >}} · {{< external-link url="https://github.com/FernandoNobel/onemodel/blob/master/docs/source/quick_start.rst">}}Raw file{{< /external-link >}}
+    - {{< external-link url="https://onemodel.readthedocs.io/en/latest/onemodel_syntax.html">}}OneModel syntax reference{{< /external-link >}} · {{< external-link url="https://github.com/FernandoNobel/onemodel/blob/master/docs/source/onemodel_syntax.rst">}}Raw file{{< /external-link >}}
+  - {{< external-link url="https://github.com/fernandonobel/onemodel">}}GitHub repository{{< /external-link >}} <br> Source code, documentation and examples
+  - {{< external-link url="https://pypi.org/project/onemodel/">}}PyPI page{{< /external-link >}} <br> Python package ready for installation
+  - {{< external-link url="https://doi.org/10.1016/j.ifacol.2022.07.432">}}Scientific article{{< /external-link >}} <br> Peer-reviewed article describing OneModel and its applications
+  - {{< external-link url="/onemodel_workshop.pdf">}}Workshop slides{{< /external-link >}} <br> Slides used at iGEM and IWBDA workshops to teach how to use OneModel
 
 {{< /details >}}
 
-{{< details title="Workshop on Python-MATLAB Interoperability for Research Teams" subtitle="Workshop Designer and Presenter" >}}
+{{< details title="Workshop on Python-MATLAB interoperability for research teams" subtitle="Workshop Designer and Presenter" >}}
 
 **Date:** 2024  
 **Tools:** Python · Jupyter Notebook · MATLAB · Mermaid · Pandoc · Markdown · LaTeX
@@ -213,7 +181,7 @@ The goal of this project was to demostrate that Python–MATLAB interoperability
 
 ### Solution
 
-I designed and hosted a hands-on workshop that avoided complex software engineering in favor of a practical, file-based workflow. During the workshop, I demostrated how **CSV files** can serve as a simple bridge between **MATLAB** and **Python**, enabling researches to:
+I designed and hosted a hands-on workshop that avoided complex software engineering in favor of a practical, file-based workflow. During the workshop, I demostrated how **CSV files** can serve as a bridge between **MATLAB** and **Python**, enabling researches to:
 
   1. Perform their core analysis in MATLAB.
   2. Export data to a **CSV** file.
@@ -227,21 +195,18 @@ The workshop was structured using the **Workshop Survival Guide method** to ensu
 The workshop was delivered as part of an internal lab seminar and was also open to external researchers. It was attended by 30+ researchers and produced immediate, tangible results:
 
   - **100% Success rate.** Every participant completed the end-to-end workflow during the session.
-  
-  - **Cultural shift.** The most significant outcome was a change in mindset: researchers who were previously "Python skeptics" began to see it as a useful and accesible tool rather than a waste of time.
-
-  - **Lowered barriers.** By prioritizing simplicity (CSV files) over complexity, I reduced the "fear factor" of learning a new language and workflow.
-
+  - **Cultural shift.** The most significant outcome was a change in mindset: researchers who were previously Python skeptics began to see it as a useful and accesible tool rather than a waste of time.
+  - **Lowered barriers.** By prioritizing simplicity (CSV files) over complexity, I reduced the fear factor of learning a new language and workflow.
   - **Future-proofing.** The workshop laid the conceptual groundwork for a new lab standard for representing state-space models.
 
 ### Links to samples
 
-- {{< external-link url="/sample-interoperability-workshop.pdf">}}Slides in PDF{{< /external-link >}} · {{< external-link url="/sample-interoperability-workshop">}}Raw file{{< /external-link >}}<br> Selection of slides presenting the core argument for Python–MATLAB interoperability.
+  - {{< external-link url="/sample-interoperability-workshop.pdf">}}Slides in PDF{{< /external-link >}} · {{< external-link url="/sample-interoperability-workshop">}}Raw file{{< /external-link >}}<br> Selection of slides presenting the core argument for Python–MATLAB interoperability.
 
 {{< /details >}}
 
 
-{{< details title="Personal Blog on Productivity, Creativity, and Writing" subtitle="Author · Web Developer" >}}
+{{< details title="Personal blog on productivity, creativity, and writing" subtitle="Author · Web Developer" >}}
 
 **Date:** 2022 -- Present  
 **Tools:** Zettelkasten · Markdown · Git · GitHub · Hugo · Cloudflare Pages · HTML · CSS  
@@ -251,66 +216,61 @@ The workshop was delivered as part of an internal lab seminar and was also open 
 
 ### Problem
 
-As a knowledge professional, the quality of my work depends heavily on two core writting skills:
+As a knowledge professional, the value I create through my work is directly tied to how well I master these two skills:
 
-  - **Writing to think** --- using writing as a tool for reasoning and sense-making.
-  - **Writing to communicate** --- expressing ideas clearly and effectively to others.
+  - **Writing to think.**  
+    Using writing as a tool for reasoning and sense-making.
+  - **Writing to communicate.**
+    Using writing to express ideas clearly and effectively to others.
 
-The value I create through my work is directly tied to how well I master these skills. With this in mind, I designed a personal writing project aimed at deliberately practicing and improving them.
+ With this in mind, I started a personal writing project aimed at deliberately practicing and improving them.
 
 The main challenge was identifying a project that could support sustained, high-quality writing practice while minimizing common sources of friction and distraction, such as complex tools, excessive planning, or external performance pressure. The goal was to create a simple, efficient structure that allowed me to devote most of my effort to the writing itself.
 
 ### Solution
 
-I chose to create a personal blog focused on long-form articles about productivity, creativity, and writing. This choice offered several advantages: it provided a recurring reason to practice writing, allowed me to gather feedback through reader responses and engagement metrics, connected directly to my own development as a knowledge worker, and enabled me to contribute value to the knowledge-work community.
+I chose to create a personal blog focused on long-form articles about productivity, creativity, and writing. This choice offered several advantages: it provided a recurring reason to practice writing, allowed me to gather feedback through reader responses and engagement metrics, connected directly to my own development as a knowledge worker, and enabled me to contribute to the knowledge-work community.
 
 I approached the project from two independent angles: the writing system and the website development.
  
-**The writing system.** I adopted an iterative, deliberate, and experimental approach, focusing at each stage on identifying skill bottlenecks and addressing them explicitly.
+**The writing system.** I adopted an iterative, deliberate, and experimental approach, focusing at each stage on identifying skill bottlenecks and improving them explicitly.
 
-My resulting workflow combines:
+My resulting writing system combines:
 
   - **The Zettelkasten method**, providing a foundation for rigorous research, incremental development of complex ideas, and a clear distinction between writing to think and writing to communicate.
   - **A custom toolbox** of templates, outlines, guides, and other knowledge tools, designed to support each phase of the writing process: ideation, structuring, drafting, and editing.
   - **A mindset** oriented toward sustainable, high-quality knowledge work.
 
-This approach made it possible to continuously improve clarity of thought as a prerequisite for clarity of writing, and to learn how to produce practical, transferable value for the audience.
+This approach made it possible: to continually improve clarity of my thinking as a prerequisite for clear writing, and to learn how to produce content that is valuable for an audience.
 
-**The website development.** In parallel, I designed a minimalist, efficient, and scalable website focused on readability, functionality, and a distraction-free reading experience. The site was developed iteratively, with writing and publishing needs guiding technical decisions. For each new requirement, I prioritized essential features to avoid overengineering.
+**The website development.** In parallel, I designed a minimalist, efficient, and scalable website focused on readability, functionality, and a distraction-free reading experience. The site was developed iteratively, with writing and publishing needs guiding technical decisions. For each new need, I prioritized essential features to avoid overengineering.
 
 Key technical decisions included:
 
-  - Using **Hugo** as a static site generator and adopting the **Docs-as-Code philosophy**.
-  - Implementing a workflow based on **Git/GitHub**, with continuous deployment via **Cloudflare Pages**.
-  - Supporting **multilingual content** (Spanish and English).
+  - Use a **Docs-as-Code** workflow.
+  - Use **Hugo** as a static site generator.
+  - Implement continuous deployment using **Git**, **GitHub**, and **Cloudflare Pages**.
+  - Support **multilingual content** (Spanish and English).
 
 ### Results
 
 The outcome is a sustainable, steadily growing project that serves as a personal laboratory for continuous improvement:
   
   - An efficient writing and publishing workflow.
-  
   - A scalable and maintainable website.
-
-  - Over than 70 published articles, including 24 in English.
-  
+  - 70+ published articles, including 24 in English.
   - 70,000+ words of long-form content, excluding notes and other materials.
-  
   - A newsletter with 400+ subscribers, with recurring positive feedback.
-  
   - Readers frequently highlight the clarity, depth, and practical value of the content.
 
 Beyond its external impact, the project has achieved its primary goal: sustainably improving my skills in thinking, writing, and systems design. It also stands as a practical expression of my ongoing commitment to using writing as a tool to think more clearly and communicate more effectively.
 
 ### Links to samples
 
-- {{< external-link url="https://eljardindegestalt.com/en/posts/the-double-value-filter/">}}The double-value filter{{< /external-link >}} · {{< external-link url="/sample-the-double-value-filter">}}Raw file{{< /external-link >}} <br> A practical tool for ensuring that nonfiction writing creates real value, both for you and for your readers.
-
-- {{< external-link url="https://eljardindegestalt.com/en/posts/the-shutdown-ritual-reduces-chronic-stress/">}}The shutdown ritual reduces chronic stress{{< /external-link >}} · {{< external-link url="/sample-the-shutdown-ritual-reduces-chronic-stress">}}Raw file{{< /external-link >}} <br> A simple, practical method for closing the workday and reducing chronic stress.
-
-- {{< external-link url="https://eljardindegestalt.com/en/posts/dont-share-without-attribution/">}}Don't share something without crediting its authors{{< /external-link >}} · {{< external-link url="/sample-dont-share-without-attribution">}}Raw file{{< /external-link >}} <br> An explanation about why proper attribution matters and how it connects to value creation in knowledge work.
-
-- {{< external-link url="https://eljardindegestalt.com/en/posts/reading-is-not-so-important/">}}Why reading a lot isn't that important{{< /external-link >}} · {{< external-link url="/sample-reading-is-not-so-important">}}Raw file{{< /external-link >}} <br> A framework for understanding how value is actually generated through reading.
+  - {{< external-link url="https://eljardindegestalt.com/en/posts/the-double-value-filter/">}}The double-value filter{{< /external-link >}} · {{< external-link url="/sample-the-double-value-filter">}}Raw file{{< /external-link >}} <br> A practical tool for ensuring that nonfiction writing creates real value, both for you and for your readers.
+  - {{< external-link url="https://eljardindegestalt.com/en/posts/the-shutdown-ritual-reduces-chronic-stress/">}}The shutdown ritual reduces chronic stress{{< /external-link >}} · {{< external-link url="/sample-the-shutdown-ritual-reduces-chronic-stress">}}Raw file{{< /external-link >}} <br> A simple, practical method for closing the workday and reducing chronic stress.
+  - {{< external-link url="https://eljardindegestalt.com/en/posts/dont-share-without-attribution/">}}Don't share something without crediting its authors{{< /external-link >}} · {{< external-link url="/sample-dont-share-without-attribution">}}Raw file{{< /external-link >}} <br> An explanation about why proper attribution matters and how it connects to value creation in knowledge work.
+  - {{< external-link url="https://eljardindegestalt.com/en/posts/reading-is-not-so-important/">}}Why reading a lot isn't that important{{< /external-link >}} · {{< external-link url="/sample-reading-is-not-so-important">}}Raw file{{< /external-link >}} <br> A framework for understanding how value is actually generated through reading.
 
 {{< /details >}}
 
@@ -318,4 +278,8 @@ Beyond its external impact, the project has achieved its primary goal: sustainab
 
 ## About this portfolio
 
-This portfolio was built with **Hugo**, **Git**, **Github**, **GitHub Pages** and <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a> theme. The source code is publicy available [on GitHub](https://github.com/fernandonobel/fernandonobel.github.io). 
+This portfolio is, in itself, a work sample :-)
+
+It was built using **Hugo**, version-controlled with **Git**, hosted on **GitHub Pages**, and styled with the [Hugo ʕ•ᴥ•ʔ Bear](https://github.com/janraasch/hugo-bearblog/) theme (which I have customized in both style and functionality to better suit a portfolio format).
+
+The complete source code is publicly available [on GitHub](https://github.com/fernandonobel/fernandonobel.github.io), so others can explore the implementation details, reuse components, or use it as a starting point for their own portfolio sites.

@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+  <div class="twocol-container">
+    <div class="twocol-text">
+      <h1>{{ .Site.Params.profile.name }}</h1>
+      <p>
+      {{ .Site.Params.profile.position }}<br>
+      {{ partial "social.html" . }} · {{ partial "resume.html" . }}
+      </p>
+    </div>
+    <div class="twocol-image">
+      <img src="/profile-photo.png" alt="Profile photo" loading="lazy" />
+    </div>
+  </div>
+
+  <hr>
+
+  {{ .Content }}
+
+{{ end }}
