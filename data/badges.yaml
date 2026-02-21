@@ -1,0 +1,41 @@
+- title: 
+    en: "Postdoctoral Researcher" 
+    es: "Investigador Postdoctoral"
+  url: ""
+  image: "/badges/umons.png"
+
+- title: 
+    en: "Postdoctoral Researcher" 
+    es: "Investigador Postdoctoral"
+  url: ""
+  image: "/badges/upv.png"
+
+- title: 
+    en: "Visiting Researcher" 
+    es: "Investigador Visitante"
+  url: ""
+  image: "/badges/eth.png"
+
+- title: 
+    en: "Judge, Advisor and Team Member" 
+    es: "Juez, Asesor y Miembro de Equipo"
+  url: ""
+  image: "/badges/igem.png"
+
+- title: 
+    en: "Manage an InnerSource program by using GitHub"
+    es: "Gestionar un programa InnerSource utilizando GitHub"
+  url: "https://learn.microsoft.com/en-us/users/fernandosantos-7838/achievements/2j8dgbyv"
+  image: "/badges/innersource.svg"
+
+- title: 
+    en: "Generate documentation using GitHub Copilot tools" 
+    es: "Generar documentación utilizando GitHub Copilot"
+  url: "https://learn.microsoft.com/en-us/users/fernandosantos-7838/achievements/vtwjwvjm"
+  image: "/badges/generic-badge.svg"
+
+- title: 
+    en: "Public sponsor of Gothenburg Bit Factory"
+    es: "Patrocinador público de Gothenburg Bit Factory"
+  url: "https://github.com/users/fernandonobel/achievements/public-sponsor"
+  image: "/badges/public-sponsor.png"

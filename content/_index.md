@@ -10,6 +10,7 @@ This portfolio includes examples of my work in:
 
 I've also contributed to projects that cannot be publicly showcased, including the development and documentation of software tools for private bioindustry companies and research that has not yet been published, such as a standard for representing state-space models.
 
+ 
 ---
 
 ## Work samples
@@ -274,6 +275,10 @@ Beyond its external impact, the project has achieved its primary goal: sustainab
 
 {{< /details >}}
 
+---
+
+{{< badges >}}
+ 
 ---
 
 ## About this portfolio

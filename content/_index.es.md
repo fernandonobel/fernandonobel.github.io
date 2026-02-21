@@ -276,6 +276,10 @@ Más allá de su impacto externo, el proyecto ha cumplido su objetivo principal:
 
 ---
 
+{{< badges >}}
+ 
+---
+
 ## Sobre este portfolio
 
 Este portfolio es, en sí mismo, una muestra de trabajo :-)

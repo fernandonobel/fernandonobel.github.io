@@ -1,0 +1,19 @@
+{{ $lang := site.Language.Lang }}
+
+<div class="badge-grid">
+  {{ range site.Data.badges }}
+  {{ $title := .title }}
+    {{ if .url }}
+    <a href="{{ .url }}" class="badge-link" target="_blank" rel="noopener noreferrer">
+    {{ end }}
+    <div class="badge">
+        <div class="badge-image">
+          <img src="{{ .image }}">
+        </div>
+        <p>{{ index $title $lang }}</p>
+    </div>
+    {{ if .url }}
+    </a>
+    {{ end }}
+  {{ end }}
+</div>
