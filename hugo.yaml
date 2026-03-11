@@ -17,7 +17,7 @@ caches:
 params:
   profile:
     name: 'Fernando Santos, PhD'
-    position: 'Technical Writer · Software Development and Documentation'
+    position: 'Technical Writer · Scientific and Industrial Software'
     resume: 'https://drive.google.com/file/d/1IiOkX3VveuBm_my9-l9xAO5iGAHaMdlu/view?usp=sharing'
   social:
     - icon: 'github'
@@ -36,7 +36,7 @@ languages:
     contentDir: content
     params:
       profile:
-        position: 'Escritor Técnico · Desarrollo y Documentación de Software'
+        position: 'Technical Writer · Software Científico e Industrial'
         resume: 'https://drive.google.com/file/d/1ivfH40XmN_Dy69GXvJYl7Vtgs9vF8wwD/view?usp=sharing'
   en:
     languageName: "🇺🇸  English"

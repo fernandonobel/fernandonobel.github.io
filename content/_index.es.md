@@ -1,6 +1,6 @@
 ## Resumen
 
-Soy **Escritor Técnico especializado en Documentación de Software**. Trabajo con investigadores e ingenieros para diseñar, desarrollar y documentar software, herramientas y flujos de trabajo.
+Soy **Technical Writer especializado en Documentación de Software**. Trabajo con investigadores e ingenieros para diseñar, desarrollar y documentar software, herramientas y flujos de trabajo.
 
 En este portfolio encontrarás ejemplos de mi trabajo en:
 
