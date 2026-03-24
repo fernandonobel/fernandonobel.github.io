@@ -1,6 +1,6 @@
 ## Summary
 
-I'm a **Technical Writer specializing in Software Documentation**. I work with researchers and engineers to design, develop and document software, tools, and workflows.
+I'm a PhD researcher with 8+ years of experience developing and documenting scientific and industrial software, currently transitioning into professional Technical Writing.
 
 This portfolio includes examples of my work in:
 
@@ -78,15 +78,15 @@ The documentation is built with **Sphinx** and published on **Read the Docs**. I
 ```mermaid
 flowchart LR
 
-    subgraph **Modular development**
+    subgraph Modular development
         one_file_1[.one file]@{ shape: lin-doc}
         one_file_2[.one file]@{ shape: lin-doc}
         one_file_3[.one file]@{ shape: lin-doc}
     end
 
-    OneModel[**OneModel**]
+    OneModel[OneModel]
 
-    subgraph **End-format export**
+    subgraph End-format export
         direction LR
         sbml_file[SBML <br> document]@{ shape: lin-doc}
     end
@@ -148,16 +148,16 @@ OneModel was developed collaboratively, with continuous iterations driven by fee
 
 ```mermaid
 flowchart TD
-    subgraph **Python**
+    subgraph Python
     P2[Process data using <br> a Python package]
     end
 
-    subgraph **CSV files**
+    subgraph CSV files
     D1[(Raw data exported <br> from MATLAB)]
     D2[(Processed data <br> from Python)]
     end
     
-    subgraph **MATLAB**
+    subgraph MATLAB
     P1[Run core analsys <br> in MATLAB]
     P3[Continue analsys <br> in MATLAB]
     end

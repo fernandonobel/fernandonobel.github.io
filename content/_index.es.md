@@ -1,8 +1,8 @@
 ## Resumen
 
-Soy **Technical Writer especializado en Documentación de Software**. Trabajo con investigadores e ingenieros para diseñar, desarrollar y documentar software, herramientas y flujos de trabajo.
+Soy un investigador con PhD y 8+ años de experiencia desarrollando y documentando software científico e industrial, en transición hacia el Technical Writing profesional.
 
-En este portfolio encontrarás ejemplos de mi trabajo en:
+En este portafolio encontrarás ejemplos de mi trabajo en:
 
   - **Documentación de código abierto.** He diseñado y redactado tutoriales, guías prácticas, referencias técnicas y explicaciones para un paquete de YAML para MATLAB, utilizando un flujo de trabajo basado en Docs-as-Code y el método Diátaxis.
   - **Desarrollo de software para investigación.** He desarrollado y documentado OneModel, una herramienta de modelado SBML basada en Python, utilizada en investigaciones académicas revisadas por pares y publicada en PyPI.
@@ -24,7 +24,7 @@ También he contribuido a proyectos que no pueden mostrarse públicamente, inclu
 
 ### Problema
 
-Gran parte de mi experiencia en documentación técnica proviene de proyectos realizados para empresas privadas o de investigaciones aún no publicadas, lo que limita la posibilidad de incluir muestras completas y actualizadas en un portfolio público.
+Gran parte de mi experiencia en documentación técnica proviene de proyectos realizados para empresas privadas o de investigaciones aún no publicadas, lo que limita la posibilidad de incluir muestras completas y actualizadas en un portafolio público.
 
 Para superar esta limitación, decidí documentar un paquete de YAML para MATLAB desarrollado por un tercero y de código abierto. Este paquete permite leer y escribir archivos YAML en MATLAB, una funcionalidad que no está disponible de forma nativa.
 
@@ -78,15 +78,15 @@ La documentación se construyó con **Sphinx** y se publicó en **Read the Docs*
 ```mermaid
 flowchart LR
 
-    subgraph **Desarrollo modular**
+    subgraph Desarrollo modular
         one_file_1[Archivo <br> .one]@{ shape: lin-doc}
         one_file_2[Archivo <br> .one]@{ shape: lin-doc}
         one_file_3[Archivo <br> .one]@{ shape: lin-doc}
     end
 
-    OneModel[**OneModel**]
+    OneModel[OneModel]
 
-    subgraph **Formato final**
+    subgraph Formato final
         direction LR
         sbml_file[Archivo <br> SBML]@{ shape: lin-doc}
     end
@@ -148,16 +148,16 @@ OneModel se desarrolló de manera colaborativa, con iteraciones continuas basada
 
 ```mermaid
 flowchart TD
-    subgraph **Python**
+    subgraph Python
     P2[Procesar datos usando <br> un paquete de Python]
     end
 
-    subgraph **Archivos CSV**
+    subgraph Archivos CSV
     D1[(Datos exportados <br> desde MATLAB)]
     D2[(Datos procesados <br> por Python)]
     end
     
-    subgraph **MATLAB**
+    subgraph MATLAB
     P1[Ejecutar análisis <br> principal en MATLAB]
     P3[Continuar análisis <br> en MATLAB]
     end
@@ -280,10 +280,10 @@ Más allá de su impacto externo, el proyecto ha cumplido su objetivo principal:
 
 ---
 
-## Sobre este portfolio
+## Sobre este portafolio
 
-Este portfolio es, en sí mismo, una muestra de trabajo :-)
+Este portafolio es, en sí mismo, una muestra de trabajo :-)
 
-Fue construido usando **Hugo**, control de versiones con **Git**, alojado en **GitHub Pages** y estilizado con el tema [Hugo ʕ•ᴥ•ʔ Bear](https://github.com/janraasch/hugo-bearblog/) (el cual he personalizado tanto en estilo como en funcionalidad para adaptarlo mejor a un formato de portfolio).
+Fue construido usando **Hugo**, control de versiones con **Git**, alojado en **GitHub Pages** y estilizado con el tema [Hugo ʕ•ᴥ•ʔ Bear](https://github.com/janraasch/hugo-bearblog/) (el cual he personalizado tanto en estilo como en funcionalidad para adaptarlo mejor a un formato de portafolio).
 
-El código fuente completo está disponible públicamente [en GitHub](https://github.com/fernandonobel/fernandonobel.github.io), de modo que otros puedan explorar los detalles de la implementación, reutilizar componentes o usarlo como punto de partida para sus propios portfolios.
+El código fuente completo está disponible públicamente [en GitHub](https://github.com/fernandonobel/fernandonobel.github.io), de modo que otros puedan explorar los detalles de la implementación, reutilizar componentes o usarlo como punto de partida para sus propios portafolios.
